@@ -16,6 +16,7 @@
 		CE99846719F831060032741A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE99846619F831060032741A /* Images.xcassets */; };
 		CE99846A19F831060032741A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE99846819F831060032741A /* LaunchScreen.xib */; };
 		CE99847619F831070032741A /* SneakrBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE99847519F831070032741A /* SneakrBookTests.m */; };
+		CE99848119F866ED0032741A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CE99848019F866ED0032741A /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		CE99846F19F831060032741A /* SneakrBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SneakrBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE99847419F831060032741A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE99847519F831070032741A /* SneakrBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SneakrBookTests.m; sourceTree = "<group>"; };
+		CE99847F19F866ED0032741A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CE99848019F866ED0032741A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				CE99846619F831060032741A /* Images.xcassets */,
 				CE99846819F831060032741A /* LaunchScreen.xib */,
 				CE99845A19F831060032741A /* SneakrBook.xcdatamodeld */,
+				CE99847F19F866ED0032741A /* Person.h */,
+				CE99848019F866ED0032741A /* Person.m */,
 				CE99845319F831060032741A /* Supporting Files */,
 			);
 			path = SneakrBook;
@@ -227,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE99848119F866ED0032741A /* Person.m in Sources */,
 				CE99846219F831060032741A /* DetailViewController.m in Sources */,
 				CE99845F19F831060032741A /* MasterViewController.m in Sources */,
 				CE99845919F831060032741A /* AppDelegate.m in Sources */,
